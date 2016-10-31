@@ -5,7 +5,7 @@ class Metrixplusplus < Formula
   homepage 'http://metrixplusplus.sourceforge.net/'
   url "http://downloads.sourceforge.net/project/metrixplusplus/metrixplusplus-#{METRIXPLUSPLUS_VERSION}.zip"
   version METRIXPLUSPLUS_VERSION
-  sha1 'a38f21642168b8c24551e4604acae662be216798'
+  sha256 'e42a088b9e886f6973966472ab2dc6a98ff8edf46d91fa968220a46399b20470'
 
   def install
     prefix.install Dir['*']
